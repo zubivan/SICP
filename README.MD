@@ -11,32 +11,51 @@ https://racket-lang.org/ for more details.
 > Assuming existance of brew.
 
 Racket REPL
-> `brew install racket`
+
+```sh
+brew install racket
+```
 
 SICP language for Racket
 > https://docs.racket-lang.org/sicp-manual
 
-> `raco pkg install sicp`
+```sh
+raco pkg install sicp
+```
 
 VSCode as an IDE, either go to
 > https://code.visualstudio.com/docs/setup/mac
 
-> `brew cask install visual-studio-code`
+```sh
+brew cask install visual-studio-code
+```
 
 ## Racket REPL
 
 As you coupld have guessed it's just
-> `racket`
+
+```sh
+racket
+```
 
 Go wild from here :rocket:
 
 ### Some useful commands
 
 Getting out of Racket REPL
-> `(exit)`
+
+```sh
+(exit)
+```
 
 Running racket file
-> `racket hello_world.rkt`
 
-Running racket file in interactive mode
-> `racket -it hello_world.rkt`
+```sh
+racket hello_world.rkt
+```
+
+Running racket file and staying in interactive mode
+
+```sh
+racket -it hello_world.rkt
+```
